@@ -1,16 +1,84 @@
 <!DOCTYPE html>
-
 <html>
-
 <head>
-	<link rel="stylesheet" href="styles.css">
+<style>
+/* Set the font family and size for the card */
+.card {
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+}
+
+/* Set the width and height of the card */
+.card {
+  width: 300px;
+  height: 400px;
+}
+
+/* Set the border radius and box shadow of the card */
+.card {
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Set the background image and position of the card */
+.card {
+  background-image: url("heart-tree.jpg");
+  background-position: center;
+}
+
+/* Set the padding and text alignment of the card content */
+.card-content {
+  padding: 20px;
+  text-align: center;
+}
+
+/* Set the color and margin of the price */
+.price {
+  color: red;
+  margin-top: 20px;
+}
+
+/* Set the color and margin of the description */
+.description {
+  color: gray;
+  margin-top: 10px;
+}
+
+/* Set the background color, border, padding, cursor and hover effect of the button */
+.button {
+  background-color: red;
+  border: none;
+  padding: 15px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: darkred;
+}
+
+/* Set the color and text decoration of the button text */
+.button-text {
+  color: white;
+  text-decoration: none;
+}
+</style>
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
-
+<!-- Create a div element with class card -->
+<div class="card">
+  <!-- Create a div element with class card-content -->
+  <div class="card-content">
+    <!-- Create a span element with class price -->
+    <span class="price">Rs.200</span>
+    <!-- Create a p element with class description -->
+    <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    <!-- Create a button element with class button -->
+    <button class="button">
+      <!-- Create an anchor element with class button-text and href attribute -->
+      <a class="button-text" href="#">Buy Now</a>
+    </button>
+  </div>
+</div>
 </body>
-
 </html>
+
